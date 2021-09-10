@@ -16,7 +16,7 @@ object rationals {
   val x = new Rational(3,4)
   val y = new Rational(5,8)
   val z = new Rational(3,2)
-  val a = new Rational(1,1)
+  var a = new Rational(1,1)
   
   a = x.sub(x).sub(y)
   x.sub(a).sub(z)
